@@ -1,0 +1,2 @@
+execute if score #global vexxed.v_stats matches 1 run tellraw @a {"text":"Vexxed helped remove ","color":"gray","extra":[{"score":{"name":"#global","objective":"vexxed.v_stats"},"color":"white"},{"text":" vex from this world","color":"gray"}]}
+execute unless score #global vexxed.v_stats matches 1 run tellraw @a {"text":"Vexxed helped remove ","color":"gray","extra":[{"score":{"name":"#global","objective":"vexxed.v_stats"},"color":"white"},{"text":" vexes from this world","color":"gray"}]}
